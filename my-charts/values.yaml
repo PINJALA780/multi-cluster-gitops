@@ -6,7 +6,7 @@ stable:
     pullPolicy: IfNotPresent
 
 canary:
-  replicaCount: 1
+  replicaCount: 2
   image:
     repository: nginxdemos/hello
     tag: "plain-text"
