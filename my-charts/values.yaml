@@ -1,0 +1,18 @@
+stable:
+  replicaCount: 3
+  image:
+    repository: nginxdemos/hello
+    tag: "v1"
+    pullPolicy: IfNotPresent
+
+canary:
+  replicaCount: 1
+  image:
+    repository: nginxdemos/hello
+    tag: "v2"
+    pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
+

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-canary
+spec:
+  replicas: {{ .Values.canary.replicaCount }}
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+      - name: myapp
+        image: "{{ .Values.canary.image.repository }}:{{ .Values.canary.image.tag }}"
+        imagePullPolicy: {{ .Values.canary.image.pullPolicy }}
+
+
