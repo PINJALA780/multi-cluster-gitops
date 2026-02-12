@@ -16,7 +16,7 @@ The platform also integrates **Prometheus and Grafana** to provide deep observab
 
 ## 🏗️ Architecture
 
-![Architecture](my-charts/project-screenshots/architecture.png)
+![Architecture](my-charts/project-screenshots/architecture.png.png)
 
 ### 🔹 Environment Design
 
