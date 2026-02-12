@@ -16,7 +16,7 @@ The platform also integrates **Prometheus and Grafana** to provide deep observab
 
 ## 🏗️ Architecture
 
-![Architecture](project-screenshots/architecture.png)
+![Architecture](my-charts/project-screenshots/architecture.png)
 
 ### 🔹 Environment Design
 
@@ -65,14 +65,14 @@ The platform also integrates **Prometheus and Grafana** to provide deep observab
 ### Canary Deployment
 Gradually shifts traffic to the new version, reducing production risk.
 
-![Canary](project-screenshots/canary.png)
+![Canary](my-charts/project-screenshots/canary.png)
 
 ---
 
 ### Stable Release
 Once validated, the application is promoted to stable.
 
-![Stable](project-screenshots/stable.png)
+![Stable](my-charts/project-screenshots/stable.png)
 
 ---
 
@@ -81,28 +81,28 @@ Once validated, the application is promoted to stable.
 ### 🧠 ArgoCD Dashboard
 Central control plane managing all Kubernetes clusters.
 
-![ArgoCD](project-screenshots/argocd-dashboard.png)
+![ArgoCD](my-charts/project-screenshots/argocd-dashboard.png)
 
 ---
 
 ### Admin Cluster
 Hosts GitOps controller.
 
-![Admin](project-screenshots/admin-cluster.png)
+![Admin](my-charts/project-screenshots/admin-cluster.png)
 
 ---
 
 ### Dev Cluster
 Testing environment for releases.
 
-![Dev](project-screenshots/dev-cluster.png)
+![Dev](my-charts/project-screenshots/dev-cluster.png)
 
 ---
 
 ### Stage / Production Cluster
 Handles production workloads.
 
-![Stage](project-screenshots/stage-cluster.png)
+![Stage](my-charts/project-screenshots/stage-cluster.png)
 
 ---
 
@@ -111,21 +111,21 @@ Handles production workloads.
 ### Pod Monitoring Dashboard
 Tracks pod performance and health.
 
-![Pods Dashboard](project-screenshots/garfana-pods-dashboard.png)
+![Pods Dashboard](my-charts/project-screenshots/garfana-pods-dashboard.png)
 
 ---
 
 ### Memory Utilization
 Prevents resource bottlenecks.
 
-![Memory](project-screenshots/memory-dashboard.png)
+![Memory](my-charts/project-screenshots/memory-dashboard.png)
 
 ---
 
 ### Running Pods
 Live view of workloads.
 
-![Pods](project-screenshots/pods.png)
+![Pods](my-charts/project-screenshots/pods.png)
 
 ---
 
